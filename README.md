@@ -1,0 +1,2 @@
+# OCamlPractice
+Testing out OCaml
