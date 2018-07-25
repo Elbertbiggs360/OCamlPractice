@@ -43,3 +43,16 @@ a&gt;2;;
 "1" &lt;&gt; "2";;
 "1" &lt;&gt; "1";;
 "1"=string_of_int 1;;
+Printf.printf "min(%d, %d) = %d\n" a b
+   (if a&lt;b then a else b);;
+if a&lt;b then a else b;;
+
+let z = if a &lt; 100 then begin
+  print_string "return at least 100 !";
+  print_newline();
+  100
+end else a;;
+while !x &gt; 20 do
+  print_int !x; print_newline ();
+  x := !x -2
+done;;
