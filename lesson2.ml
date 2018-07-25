@@ -14,3 +14,12 @@ print_string "x = ";;
 print_int !x;;
 print_newline();;
 Printf.printf "x = %d. Bye %s\n" !x "John";;
+for i = 1 to 10 do
+  xl := i :: !xl;
+done;
+!xl;;
+List.rev !xl;;
+for i = 10 downto 1 do
+  xl := i :: !xl
+done;
+!xl;;
