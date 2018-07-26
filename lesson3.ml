@@ -1,0 +1,18 @@
+let incr n = n+ 1;;
+let plus_and_divide (x,y,z) = (x+y) / z;;
+incr 42;;
+plus_and_divide (10,10,2);;
+let plus x y = x+y;;
+plus 1 2;;
+(2,3,4,5);;
+let divide x y = (x/y, x mod y);;
+divide 10 3;;
+let plus x y = x + y;;
+let incr = plus 1;;
+plus 1;;
+incr 42;;
+let mul x y = x*y;;
+let double mul 2;;
+double 8;;
+let double = mul 2;;
+double 8;;
